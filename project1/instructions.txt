@@ -1,0 +1,9 @@
+1. Download a partition of the dataset :https://owncloud.ut.ee/owncloud/s/9FmPbfg9q6NPfH2
+2. Log in to Databricks and go to Data -> Create Table
+3. Upload the dataset
+4. Select Create Table in Notebook
+5. In the last cell set the permanent_table_name to "scientific_publications" and add the line
+     df.write.format("delta").mode("overwrite").saveAsTable("scientific_publications") 
+   to the end of the cell.
+6. Run all cells
+7. Import the Project_1.ipynb to Databricks and try ro run it
