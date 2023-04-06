@@ -1,4 +1,4 @@
-1. Download a partition of the dataset :https://owncloud.ut.ee/owncloud/s/9FmPbfg9q6NPfH2
+1. Download a partition of the dataset: https://owncloud.ut.ee/owncloud/s/9FmPbfg9q6NPfH2
 2. Log in to Databricks and go to Data -> Create Table
 3. Upload the dataset
 4. Select Create Table in Notebook
